@@ -42,7 +42,7 @@
   {
     id: "kaad",
     name: "Kaad Technical Services",
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    technologies: ["WordPress"],
     description: "A professional corporate website for Kaad Technical Services showcasing the company's services, team, and portfolio. Clean, trustworthy design optimised for both desktop and mobile with strong emphasis on performance, accessibility, and lead generation.",
     liveUrl: "#",
     images: ['assets/images/kaad.png', 'assets/images/kaad1.png', 'assets/images/kaad2.png'],
