@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="maxin Yeager — Software Engineer. Building elegant, functional web experiences." />
+  <title>Maxin Yeager - portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="scroll-progress"></div>
+
+  <!-- LOADING -->
+  <div id="loading-screen">
+    <p class="loader-logo">Maxin <span>Yeager</span></p>
+    <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+    <p class="loader-text">Crafting experience…</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-target="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span class="nav-label">Home</span>
+    </button>
+    <button class="nav-item" data-target="about">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+      <span class="nav-label">About</span>
+    </button>
+    <button class="nav-item" data-target="projects">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      <span class="nav-label">Projects</span>
+    </button>
+    <button class="nav-item" data-target="experience">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+      <span class="nav-label">Work</span>
+    </button>
+    <button class="nav-item" data-target="connect">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      <span class="nav-label">Connect</span>
+    </button>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <!-- ══ HERO ══ -->
+    <section id="hero" data-section>
+
+      <!-- Floating Tech Logos -->
+      <div class="floating-logos" aria-hidden="true">
+
+        <!-- 1: HTML5 large -->
+        <div class="float-logo">
+          <svg viewBox="0 0 452 520" xmlns="http://www.w3.org/2000/svg">
+            <path d="M41 460L0 0h452l-41 460-185 52L41 460z" fill="rgba(227,76,38,0.55)"/>
+            <path d="M226 472l149-41 35-395H226V472z" fill="rgba(239,101,42,0.4)"/>
+            <path d="M226 208H124l7 77h95v76H84L64 96h162v76zm0 179l-1 .3-77-21-5-55h-76l10 109 149 41V387z" fill="rgba(255,255,255,0.75)"/>
+            <path d="M226 208v76h88l-9 97-79 21v80l149-41 11-117 5-116H226zm0-112v76h162L396 96H226v76z" fill="rgba(255,255,255,0.9)"/>
+          </svg>
+        </div>
+
+        <!-- 2: CSS3 large -->
+        <div class="float-logo">
+          <svg viewBox="0 0 452 520" xmlns="http://www.w3.org/2000/svg">
+            <path d="M41 460L0 0h452l-41 460-185 52L41 460z" fill="rgba(38,77,228,0.55)"/>
+            <path d="M226 472l149-41 35-395H226V472z" fill="rgba(42,101,239,0.4)"/>
+            <path d="M226 208H100l4 77h122v76H100L84 96h162v76zm26-112h162l-4 76H252l4 36h110l-11 117-145 41V387l80-22 8-78H226V208z" fill="rgba(255,255,255,0.85)"/>
+          </svg>
+        </div>
+
+        <!-- 3: JavaScript large -->
+        <div class="float-logo">
+          <svg viewBox="0 0 630 630" xmlns="http://www.w3.org/2000/svg">
+            <rect width="630" height="630" rx="40" fill="rgba(240,219,79,0.5)"/>
+            <path d="M423 492c8 13 19 23 37 23 16 0 26-8 26-18 0-13-10-17-28-25l-10-4c-27-11-45-26-45-56 0-28 21-49 54-49 23 0 40 8 52 29l-28 18c-6-11-13-16-24-16-11 0-18 7-18 16 0 11 7 16 23 23l10 4c32 14 51 28 51 60 0 34-27 52-63 52-35 0-58-17-69-39l30-18zm-171 3c6 10 11 19 24 19 12 0 20-5 20-23V326h37v167c0 38-22 55-55 55-29 0-46-15-55-34l29-19z" fill="rgba(50,50,50,0.85)"/>
+          </svg>
+        </div>
+
+        <!-- 4: WordPress large -->
+        <div class="float-logo">
+          <svg viewBox="0 0 122.5 122.5" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="61.25" cy="61.25" r="61.25" fill="rgba(33,117,155,0.5)"/>
+            <path d="M61.25 4.4a56.85 56.85 0 100 113.7A56.85 56.85 0 0061.25 4.4zM8.7 61.25a52.55 52.55 0 0144.1-51.9L14.7 109a52.45 52.45 0 01-6-47.75zm52.55 52.55a52.55 52.55 0 01-16-2.5l17-49.4 17.4 47.7a52.85 52.85 0 01-18.4 4.2zm7.2-76.4l14.7 43.7-3.7 12.3L73 67.4c-1.7-5.8-2.5-11.6-2.3-11.6a44.17 44.17 0 001-8.4c0-3.4-.8-5.7-1.8-7.5a19 19 0 01-1.45-4.45zm-17.8 3a15.84 15.84 0 01-2.9-.3 18.36 18.36 0 01-.5-4.3c0-2.7.7-4.5 1.3-5.9a59.47 59.47 0 016.3-13.2 52.63 52.63 0 0115.4 53.7zm31.9-26.8a52.6 52.6 0 014.4 21.6 52.06 52.06 0 01-4.2 20.7l-13.1-36.7a52.53 52.53 0 0112.9-5.6zm-26.8 62.4l-15-43.5-.7-2.1 7.9-23.6a52.52 52.52 0 0133 85.8l-25.2-16.6z" fill="rgba(255,255,255,0.85)"/>
+          </svg>
+        </div>
+
+        <!-- 5: HTML5 small -->
+        <div class="float-logo">
+          <svg viewBox="0 0 452 520" xmlns="http://www.w3.org/2000/svg">
+            <path d="M41 460L0 0h452l-41 460-185 52L41 460z" fill="rgba(227,76,38,0.4)"/>
+            <path d="M226 472l149-41 35-395H226V472z" fill="rgba(239,101,42,0.3)"/>
+            <path d="M226 208H124l7 77h95v76H84L64 96h162v76zm0 179l-1 .3-77-21-5-55h-76l10 109 149 41V387z" fill="rgba(255,255,255,0.65)"/>
+            <path d="M226 208v76h88l-9 97-79 21v80l149-41 11-117 5-116H226zm0-112v76h162L396 96H226v76z" fill="rgba(255,255,255,0.8)"/>
+          </svg>
+        </div>
+
+        <!-- 6: CSS3 small -->
+        <div class="float-logo">
+          <svg viewBox="0 0 452 520" xmlns="http://www.w3.org/2000/svg">
+            <path d="M41 460L0 0h452l-41 460-185 52L41 460z" fill="rgba(38,77,228,0.4)"/>
+            <path d="M226 472l149-41 35-395H226V472z" fill="rgba(42,101,239,0.3)"/>
+            <path d="M226 208H100l4 77h122v76H100L84 96h162v76zm26-112h162l-4 76H252l4 36h110l-11 117-145 41V387l80-22 8-78H226V208z" fill="rgba(255,255,255,0.7)"/>
+          </svg>
+        </div>
+
+        <!-- 7: JS small -->
+        <div class="float-logo">
+          <svg viewBox="0 0 630 630" xmlns="http://www.w3.org/2000/svg">
+            <rect width="630" height="630" rx="40" fill="rgba(240,219,79,0.38)"/>
+            <path d="M423 492c8 13 19 23 37 23 16 0 26-8 26-18 0-13-10-17-28-25l-10-4c-27-11-45-26-45-56 0-28 21-49 54-49 23 0 40 8 52 29l-28 18c-6-11-13-16-24-16-11 0-18 7-18 16 0 11 7 16 23 23l10 4c32 14 51 28 51 60 0 34-27 52-63 52-35 0-58-17-69-39l30-18zm-171 3c6 10 11 19 24 19 12 0 20-5 20-23V326h37v167c0 38-22 55-55 55-29 0-46-15-55-34l29-19z" fill="rgba(50,50,50,0.7)"/>
+          </svg>
+        </div>
+
+        <!-- 8: WordPress small -->
+        <div class="float-logo">
+          <svg viewBox="0 0 122.5 122.5" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="61.25" cy="61.25" r="61.25" fill="rgba(33,117,155,0.38)"/>
+            <path d="M8.7 61.25a52.55 52.55 0 0144.1-51.9L14.7 109a52.45 52.45 0 01-6-47.75zm52.55 52.55a52.55 52.55 0 01-16-2.5l17-49.4 17.4 47.7a52.85 52.85 0 01-18.4 4.2zm7.2-76.4l14.7 43.7-3.7 12.3L73 67.4c-1.7-5.8-2.5-11.6-2.3-11.6a44.17 44.17 0 001-8.4c0-3.4-.8-5.7-1.8-7.5a19 19 0 01-1.45-4.45zm-17.8 3a15.84 15.84 0 01-2.9-.3 18.36 18.36 0 01-.5-4.3c0-2.7.7-4.5 1.3-5.9a59.47 59.47 0 016.3-13.2 52.63 52.63 0 0115.4 53.7zm31.9-26.8a52.6 52.6 0 014.4 21.6 52.06 52.06 0 01-4.2 20.7l-13.1-36.7a52.53 52.53 0 0112.9-5.6zm-26.8 62.4l-15-43.5-.7-2.1 7.9-23.6a52.52 52.52 0 0133 85.8l-25.2-16.6z" fill="rgba(255,255,255,0.7)"/>
+          </svg>
+        </div>
+
+      </div><!-- /floating-logos -->
+
+      <div class="hero-inner">
+        <div class="avatar-wrap">
+          <img class="avatar-img" src="assets/images/mypic.jpg" alt="Judah Abraham"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="avatar-placeholder">maxin</div>
+        </div>
+        <span class="hero-eyebrow">Available for work</span>
+        <h1 class="hero-name">Maxin Yeager<br><em>Emmanuel</em></h1>
+        <p class="hero-role">Software Engineer</p>
+        <p class="hero-desc">I design and develop fast, scalable web applications and polished landing pages — soon expanding into Web3.</p>
+        <div class="hero-buttons">
+          <button class="btn-primary" data-open-modal>Get in Touch</button>
+          <a class="btn-outline" href="assets/judah-abraham-cv.pdf" download>Download CV</a>
+        </div>
+        <div class="hero-socials">
+          <a class="social-link" href="https://tiktok.com/@i.am.maxin" target="_blank" rel="noopener" aria-label="Tiktok">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M16 8.5c1.5 1 3 1.5 4.5 1.5v3c-1.7 0-3.4-.5-5-1.4V15a5 5 0 1 1-5-5c.3 0 .7 0 1 .1v3.2c-.3-.2-.7-.3-1-.3a2 2 0 1 0 2 2V2h3c.2 2 1.5 3.8 3.5 4.5v2z"/>
+          </svg></a>
+          <a class="social-link" href="https://x.com/dev_maxin" target="_blank" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M4 20L20 4"/></svg>
+          </a>
+          <a class="social-link" href="https://instagram.com/maxin_yeager" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a class="social-link" href="https://github.com/Devmaxin" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+          </a>
+          <a class="social-link" href="https://linkedin.com/in/devmaxin" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </section>
+
+    <!-- ══ ABOUT ══ -->
+    <section id="about" data-section>
+      <div class="section">
+        <p class="section-eyebrow" data-anim="left" data-dur="fast">About me</p>
+        <div class="section-line" data-anim="fade"></div>
+        <h2 class="section-title" data-anim="up">Turning ideas into <em style="font-style:italic;color:var(--g300)">digital reality</em></h2>
+        <div class="about-content">
+          <div class="about-text" data-anim="left" data-delay="150" data-dur="slow">
+            
+            <p>I’m <b>Maxin</b>, a web developer and founder of <a href="https://maxin-labs.vercel.app"> <u> <strong style="color:var(--g300)">Maxin Labs</strong></u> </a> focused on building fast, scalable web applications and modern digital products with a growing focus on Web3.</p>
+            <p>My stack centres on HTML, CSS, JavaScript, with experience building full-stack projects like a <a href="">campus marketplace platform.</a> I care about clean structure, functional UI, and products that are actually usable.</p>
+            <p>When I’m not building, I’m expanding my knowledge on JavaScript, exploring blockchain development, and working on ideas around Web3 and digital platforms.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card" data-anim="scaleup" data-delay="100"><p class="stat-num" data-count="5">0</p><p class="stat-label">Projects shipped</p></div>
+            <div class="stat-card" data-anim="scaleup" data-delay="200"><p class="stat-num" data-count="3">0</p><p class="stat-label">Years building</p></div>
+            <div class="stat-card" data-anim="scaleup" data-delay="300"><p class="stat-num">Web3</p><p class="stat-label">Coming soon</p></div>
+            <div class="stat-card" data-anim="scaleup" data-delay="400"><p class="stat-num">∞</p><p class="stat-label">Curiosity</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ PROJECTS ══ -->
+    <section id="projects" data-section>
+      <div class="section">
+        <p class="section-eyebrow" data-anim="left" data-dur="fast">Selected work</p>
+        <div class="section-line" data-anim="fade"></div>
+        <h2 class="section-title" data-anim="up">Projects</h2>
+        <p class="section-subtitle" data-anim="up" data-delay="150">A curated selection of things I've designed, built, and shipped.</p>
+        <div id="projects-list"></div>
+      </div>
+    </section>
+
+    <!-- ══ EXPERIENCE ══ -->
+    <section id="experience" data-section>
+      <div class="section">
+        <p class="section-eyebrow" data-anim="left" data-dur="fast">Career</p>
+        <div class="section-line" data-anim="fade"></div>
+        <h2 class="section-title" data-anim="up" style="font-family: Sora;">Work Experience</h2>
+        <p class="section-subtitle" data-anim="up" data-delay="150">Roles that shaped how I think about building software.</p>
+        <div class="experience-list">
+          <div class="exp-item" data-anim="left" data-delay="0">
+            <div class="exp-dot"><div class="exp-dot-inner"></div></div>
+            <div class="exp-content">
+              <p class="exp-year">2025 — Present</p>
+              <p class="exp-company">Maxin Labs</p>
+              <p class="exp-role">Founder & Lead Engineer</p>
+              <p class="exp-desc">Founded and operate a full-service web studio. Responsible for scoping, designing, and delivering client projects — from landing pages and web applications to e-commerce stores. Own the full product cycle from discovery to deployment.</p>
+            </div>
+          </div>
+          <div class="exp-item" data-anim="left" data-delay="150">
+            <div class="exp-dot"><div class="exp-dot-inner"></div></div>
+            <div class="exp-content">
+              <p class="exp-year">2025</p>
+              <p class="exp-company">Kaad Technical Services</p>
+              <p class="exp-role">Frontend Developer</p>
+              <p class="exp-desc">Built and maintained the company's corporate website. Collaborated with the marketing team to improve SEO, page speed, and mobile responsiveness. Delivered pixel-perfect HTML/CSS implementations from Figma designs.</p>
+            </div>
+          </div>
+          <div class="exp-item" data-anim="left" data-delay="300">
+            <div class="exp-dot"><div class="exp-dot-inner"></div></div>
+            <div class="exp-content">
+              <p class="exp-year">2026 - present</p>
+              <p class="exp-company">Campvio</p>
+              <p class="exp-role">Full-Stack Developer / Lead developer</p>
+              <p class="exp-desc">Building core infrastructure, integrating payment systems .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CTA ══ -->
+    <section id="cta">
+      <div class="section" style="padding-top:0">
+        <div class="cta-card" data-anim="scaleup" data-dur="slow">
+          <h2 class="cta-title">Your next big thing<br><em>starts here.</em></h2>
+          <p class="cta-sub">Have a project in mind? Looking for a developer who cares about quality and detail? Let's make it real.</p>
+          <button class="btn-primary" data-open-modal>Get in Touch</button>
+        </div>
+      </div>
+    </section>
+
+    <footer data-anim="fade"><p>© 2026 Maxin Yeager · Built with care by Maxin Labs</p></footer>
+  </div>
+
+  <!-- MODAL -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div class="modal">
+      <button id="modal-close" class="modal-close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <h2 class="modal-title">Let's talk</h2>
+      <p class="modal-sub">I'll get back to you within 24 hours.</p>
+      <form id="contact-form" novalidate action="https://formspree.io/f/mvzdebrv"
+  method="POST">
+        <div class="form-group">
+          <label class="form-label" for="cf-name">Your name</label>
+          <input class="form-input" type="text" id="cf-name" name="name" placeholder="e.g. Maxin Emmanuel" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="cf-email">Email address</label>
+          <input class="form-input" type="email" id="cf-email" name="email" placeholder="youremail@gmail.com" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="cf-whatsapp">WhatsApp number</label>
+          <input class="form-input" type="tel" id="cf-whatsapp" name="whatsapp" placeholder="+234 800 000 0000" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="cf-message">Message</label>
+          <textarea class="form-textarea" id="cf-message" name="message" placeholder="Tell me about your project…" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+      <div id="form-success" class="form-success">
+        <div class="success-icon">✅</div>
+        <p>Message sent! I'll be in touch soon.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
