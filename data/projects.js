@@ -8,7 +8,7 @@ window.PROJECTS = [
       name: 'Campio Marketplace',
       technologies: ['Html', 'Css', 'Javascript', 'PhP/MySQL'],
       description: 'Campvio is a marketplace where students can buy and sell products on their campus removing the issues faced for vendors aving a dedicated website or having to find buyers through massive whatsapp adverts.',
-      liveUrl: 'https://campvio-waitlist.name.ng',
+      liveUrl: 'https://campvio.name.ng',
       images: ['assets/images/campviowaitlit.png', 'assets/images/campvio.jpg', 'assets/images/campvio2.png'],
       color: '#2e0a0a', accent: '#d94a4a'
     },
@@ -38,7 +38,7 @@ window.PROJECTS = [
     name: "Kaad Technical Services",
     technologies: ["WordPress"],
     description: "A professional corporate website for Kaad Technical Services showcasing the company's services, team, and portfolio. Clean, trustworthy design optimised for both desktop and mobile with strong emphasis on performance, accessibility, and lead generation.",
-    liveUrl: "#",
+    liveUrl: "https://kaadtechnicalservices.com",
     images: ['assets/images/kaad.png', 'assets/images/kaad1.png', 'assets/images/kaad2.png'],
     color: "#0a1f3a",
     accent: "#4a90d9"
